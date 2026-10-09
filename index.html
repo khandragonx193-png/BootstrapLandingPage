@@ -1,0 +1,223 @@
+```html
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPro - Thiết kế Website</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- CSS tự viết -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">WebPro</a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarMenu"
+                    aria-controls="navbarMenu"
+                    aria-expanded="false"
+                    aria-label="Mở menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Tính năng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner / Hero -->
+    <header class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-6">
+                    <p class="hero-label">GIẢI PHÁP WEBSITE HIỆN ĐẠI</p>
+
+                    <h1>
+                        Xây dựng website chuyên nghiệp cho doanh nghiệp của bạn
+                    </h1>
+
+                    <p class="hero-description">
+                        Tạo dấu ấn thương hiệu với website đẹp mắt,
+                        tốc độ nhanh và hiển thị tốt trên mọi thiết bị.
+                    </p>
+
+                    <a href="#contact" class="btn btn-primary btn-lg me-2">
+                        Đăng ký ngay
+                    </a>
+
+                    <a href="#about" class="btn btn-outline-light btn-lg mt-2 mt-sm-0">
+                        Tìm hiểu thêm
+                    </a>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <img
+                        src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80"
+                        class="img-fluid hero-image"
+                        alt="Màn hình phân tích dữ liệu trên website">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Giới thiệu -->
+    <section class="about-section py-5" id="about">
+        <div class="container">
+            <div class="row align-items-center g-5">
+
+                <div class="col-12 col-lg-6">
+                    <img
+                        src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=80"
+                        class="img-fluid rounded-4 about-image"
+                        alt="Không gian làm việc hiện đại">
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <p class="section-label">VỀ CHÚNG TÔI</p>
+
+                    <h2 class="section-title">
+                        Đồng hành cùng bạn trên hành trình số hóa
+                    </h2>
+
+                    <p>
+                        WebPro cung cấp giải pháp thiết kế website phù hợp
+                        với nhu cầu của cá nhân và doanh nghiệp.
+                    </p>
+
+                    <p>
+                        Chúng tôi hướng đến giao diện thân thiện, bố cục
+                        rõ ràng, dễ sử dụng và tương thích với máy tính,
+                        máy tính bảng và điện thoại.
+                    </p>
+
+                    <a href="#features" class="btn btn-primary">
+                        Khám phá dịch vụ
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Danh sách tính năng -->
+    <section class="features-section py-5" id="features">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <p class="section-label">LỢI ÍCH DÀNH CHO BẠN</p>
+                <h2 class="section-title">Tại sao chọn WebPro?</h2>
+                <p class="text-muted">
+                    Những giá trị giúp website của bạn hoạt động hiệu quả hơn.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Tính năng 1 -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="feature-card h-100 text-center">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Thiết kế hiện đại</h3>
+                        <p>
+                            Giao diện đẹp mắt, bố cục rõ ràng và phù hợp
+                            với nhận diện thương hiệu.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Tính năng 2 -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="feature-card h-100 text-center">
+                        <div class="feature-icon">📱</div>
+                        <h3>Responsive</h3>
+                        <p>
+                            Hiển thị phù hợp trên điện thoại,
+                            máy tính bảng và máy tính.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Tính năng 3 -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="feature-card h-100 text-center">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Tốc độ nhanh</h3>
+                        <p>
+                            Tối ưu trải nghiệm truy cập và giúp người dùng
+                            dễ dàng tìm thấy thông tin.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Tính năng 4 -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="feature-card h-100 text-center">
+                        <div class="feature-icon">🛠️</div>
+                        <h3>Dễ quản lý</h3>
+                        <p>
+                            Bố cục nội dung rõ ràng, thuận tiện cập nhật
+                            và phát triển trong tương lai.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section py-5" id="contact">
+        <div class="container text-center">
+            <h2>Sẵn sàng xây dựng website của bạn?</h2>
+
+            <p class="mb-4">
+                Bắt đầu ngay hôm nay để đưa ý tưởng của bạn lên Internet.
+            </p>
+
+            <a href="mailto:contact@webpro.example"
+               class="btn btn-light btn-lg">
+                Liên hệ ngay
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center py-4">
+        <div class="container">
+            <p class="mb-1 fw-bold">WebPro</p>
+            <p class="mb-0">
+                © 2026 WebPro. Bản quyền thuộc về WebPro.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+```

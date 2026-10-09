@@ -1,0 +1,144 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #263238;
+    line-height: 1.7;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Banner */
+.hero-section {
+    background: linear-gradient(135deg, #102a43, #1769aa);
+    color: white;
+    padding: 80px 0;
+}
+
+.hero-label,
+.section-label {
+    color: #0d6efd;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero-label {
+    color: #a8d5ff;
+}
+
+.hero-section h1 {
+    font-size: clamp(32px, 4vw, 48px);
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 15px 0 20px;
+}
+
+.hero-description {
+    font-size: 18px;
+    color: #e0eaf4;
+    margin-bottom: 28px;
+}
+
+.hero-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Phần giới thiệu */
+.about-section {
+    background-color: #ffffff;
+}
+
+.about-image {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Phần tính năng */
+.features-section {
+    background-color: #f4f7fb;
+}
+
+.feature-card {
+    background-color: white;
+    border: 1px solid #e7edf4;
+    border-radius: 14px;
+    padding: 28px 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.feature-icon {
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+
+.feature-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.feature-card p {
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+/* Khu vực kêu gọi hành động */
+.cta-section {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.cta-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+    background-color: #212529;
+    color: #ced4da;
+}
+
+/* Responsive cho điện thoại */
+@media (max-width: 575.98px) {
+    .hero-section {
+        padding: 50px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 32px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+    }
+
+    .section-title,
+    .cta-section h2 {
+        font-size: 26px;
+    }
+
+    .feature-card {
+        padding: 24px 16px;
+    }
+}
